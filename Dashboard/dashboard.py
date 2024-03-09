@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Menyiapkan data day_df
-df = pd.read_csv("day.csv")
+df = pd.read_csv("Bike_Sharing_Datasets/day.csv")
 df.head()
 
 # Menghapus kolom yang tidak diperlukan
